@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^2.0.1",
+    "serve-static": "^1.15.0"
+  },
+  "name": "aboutproxy",
+  "version": "dev",
+  "description": "Chrome in your browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later"
+}
