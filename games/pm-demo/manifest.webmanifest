@@ -1,0 +1,15 @@
+{
+  "name": "Project Micro Demo",
+  "short_name": "Project Micro Demo",
+  "id": "com.ProjectMicro.game",
+  "description": "Survive in a world where humans have become small",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "New image4.png",
+        "sizes": "512x512"
+      }]
+}
