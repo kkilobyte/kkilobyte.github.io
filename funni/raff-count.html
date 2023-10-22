@@ -1,0 +1,95 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Rafflesia Countdown - kxtzownsu">
+  <meta name="description" content="Simple countdown made in JS &amp; HTML that counts down to the day Rafflesia returns from the psych ward. Made by kxtzownsu :3">
+  <meta property="og:title" content="Rafflesia Countdown - kxtzownsu">
+  <meta property="og:description" content="Simple countdown made in JS &amp; HTML that counts down to the day Rafflesia returns from the psych ward. Made by kxtzownsu :3">
+  <meta property="og:image" content="https://mercurywork.shop/assets/pfps/raff.webp">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="1500">
+  <title>The Raff Count</title>
+<style> 
+@font-face {
+ font-family: Arial, Helvetica, sans-serif;
+ src: url(sansation_light.woff);
+}
+
+* {
+ font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+body {
+  color: #eee;
+  background: #121212;
+}
+
+a {
+  color: #809fff;
+}
+}
+
+@media (prefers-color-scheme: light) {
+/* Light theme styles go here */
+}
+body {
+--text-color: #222;
+--bkg-color: #fff;
+}
+body.dark-theme {
+--text-color: #eee;
+--bkg-color: #121212;
+}
+body.light-theme {
+  --text-color: #222;
+  --bkg-color: #fff;
+}
+}
+  </style>
+
+
+</head>
+<body>
+  <center>
+    <h1>Rafflesia Return is in:</h1>
+    <h3 id="countdown">
+                  0d  
+                  21h 
+                  20m  
+                  4s 
+              </h3>
+    <p>Made by kxtzownsu :3<br>Skidded by Kilo :3</p>
+    <br><br><br><br><br><br><br><br><br><br>
+  </center>
+<script>
+      // Specify the target timestamp in UTC (Coordinated Universal Time)
+      const targetTimestamp = Date.UTC(2023, 9, 4, 4, 0, 0);
+      function updateCountdown() {
+        const currentDate = new Date().getTime();
+        const timeDifference = targetTimestamp - currentDate;
+        if (timeDifference <= 0) {
+          // The countdown has reached or passed the target date
+          document.getElementById("countdown").innerHTML = "Rafflesia is back!";
+        } else {
+          const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+          document.getElementById("countdown").innerHTML = `
+                    ${days}d  
+                    ${hours}h 
+                    ${minutes}m  
+                    ${seconds}s 
+                `;
+        }
+      }
+      // Update the countdown every second
+      setInterval(updateCountdown, 1000);
+      // Initial call to set the countdown on page load
+      updateCountdown();
+    </script>
+
+
+</body></html>
