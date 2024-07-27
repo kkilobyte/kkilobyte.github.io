@@ -1,6 +1,6 @@
 # [kbsite on github.io](https://kkilobyte.github.io) is now outdated
-Same with [kbsite on repl](https://site.kkilo.repl.co), [kbsite on github.io](https://kkilobyte.github.io) is now outdated.
+[kbsite on github.io](https://kkilobyte.github.io) is now outdated. It does not make sense to try and sync GitHub Pages to the new website, thus it will now redirect.
 
-This means both the Repl and Github websites will redirect to the new kbsite website.
+This means the GitHub Page website will redirect to the new website.
 
-The new website is [kkilouwu.bio](https://kkilouwu.bio), and both Repl and Github will redirect to it.
+The new websites are [kkilo.me](https://www.kkilo.me) and [kkilouwu.bio](https://kkilouwu.bio), and Github will redirect to [kkilo.me](https://www.kkilo.me).
