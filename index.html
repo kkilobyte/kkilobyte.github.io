@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>kbsite github.io is outdated</title>
-    <h1>The KBSite github.io is outdated</h1>
-    <h2>Redirecting to kkilouwu.bio</h2>
+    <title>Kilo's GitHub Pages is outdated</title>
+    <h1>Kilo's GitHub Pages is outdated</h1>
+    <h2>Redirecting to kkilo.me.</h2>
   </head>
   <body>
     <script>
-      // Function to extract URL parameter
       function getUrlParameter(name) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(name);
       }
 
-      // Use a function as the first argument for setTimeout
       setTimeout(function() {
-        // Get the URL parameter
         const urlParam = getUrlParameter('url');
 
-        // If a valid URL parameter is provided, construct the new URL
         if (urlParam) {
-          const redirectTo = "http://kkilouwu.bio" + urlParam;
+          const redirectTo = "https://kkilouwu.bio" + urlParam;
           window.location.href = redirectTo;
         } else {
-          // Default redirect if no URL parameter is provided
-          const defaultRedirect = "http://kkilouwu.bio";
+          const defaultRedirect = "https://kkilouwu.bio";
           window.location.href = defaultRedirect;
         }
-      }, 5000); // Set the timeout duration in milliseconds (5000 milliseconds = 5 seconds)
+      }, 5000);
     </script>
     <meta http-equiv="refresh" content="5; URL=http://kkilouwu.bio" />
-    <p><a href="http://kkilouwu.bio">If you weren't redirected after 5 seconds, click here.</a>
-    <br>(http://kkilouwu.bio)</p>
+    <p><a href="https://www.kkilo.me">If you weren't redirected after 5 seconds, click here.</a>
+    <br>(https://www.kkilo.me/)</p>
   </body>
 </html>
