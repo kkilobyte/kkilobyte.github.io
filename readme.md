@@ -1,5 +1,5 @@
-# [kbsite on github.io](https://kkilobyte.github.io) is now outdated
-[kbsite on github.io](https://kkilobyte.github.io) is now outdated. It does not make sense to try and sync GitHub Pages to the new website, thus it will now redirect.
+# [Kilo's GitHub Pages](https://kkilobyte.github.io) is now outdated
+[Kilo's GitHub Pages](https://kkilobyte.github.io) is now outdated. It does not make sense to try and sync GitHub Pages to the new website, thus it will now redirect.
 
 This means the GitHub Page website will redirect to the new website.
 
